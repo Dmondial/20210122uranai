@@ -1,0 +1,15 @@
+.contents{
+  width: 100vw;
+  height: auto;
+
+}
+
+.row{
+  height: 100vh;
+}
+
+.eyecatch{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
