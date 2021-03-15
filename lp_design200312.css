@@ -1,7 +1,7 @@
 .contents{
   width: 100vw;
   height: auto;
-
+  
 }
 
 .row{
@@ -13,3 +13,4 @@
   justify-content: center;
   flex-direction: column;
 }
+
