@@ -108,10 +108,17 @@ body{
   font-size: 36px;
 }
 
+.concept_border{
+  margin: 20px;
+  width: 50px;
+  border: 1px solid #707070 ;
+}
+
 .concept_info{
   font-size: 16px;
   width: 576px;
   height: 70px;
+  margin-bottom: 30px;
 }
 
 .concept_image{
