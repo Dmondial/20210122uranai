@@ -92,29 +92,33 @@ body{
   align-items: center;
 }
 .content{
-  width: 960px;
-  background-color: aquamarine;
+  /* width: 960px;
+  background-color: aquamarine; */
 }
 
 /* concept部 */
-.concept{
+.content{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   
+  width: 960px;
+  background-color: aquamarine;
 }
-.concept_title{
+.title{
   font-size: 36px;
+  font-family: poppins;
+  font-weight: bold;
 }
 
-.concept_border{
+.border{
   margin: 20px;
   width: 50px;
   border: 1px solid #707070 ;
 }
 
-.concept_info{
+.info{
   font-size: 16px;
   width: 576px;
   height: 70px;
@@ -126,3 +130,83 @@ body{
   width: 960px;
   height: 400px;
 }
+
+
+/* work_contents部 */
+.work_contents{
+  display: flex;
+  justify-content: space-between;
+}
+
+.work_content{
+  width: 420px;
+  margin-bottom: 100px;
+}
+
+.work_content_title{
+  font-size: 24px;
+  font-family: poppins;
+  font-weight: bold;
+}
+
+.gift{
+  background-image: url(image/work_gift.png);
+  width: 420px;
+  height: 420px;
+}
+.wedding{
+  background-image: url(image/work_wedding.png);
+  width: 420px;
+  height: 630px;
+}
+.decoration{
+  background-image: url(image/work_decoretion.png);
+  width: 420px;
+  height: 630px;
+}
+.for_yourself{
+  background-image: url(image/work_for_yourself.png);
+  width: 420px;
+  height: 400px;
+}
+
+.work_content_left{
+  margin-right: 120px;
+}
+.work_content_right{
+  margin: 120px 0 auto auto;
+}
+
+
+/* florist部 */
+
+.florist_contents{
+  display: flex;
+  justify-content: space-between;
+}
+
+.florist_content{
+  width: 300px;
+}
+.florist_content_mao{
+  width: 300px;
+  margin: auto 30px;
+}
+
+.florist_content_image{
+  width: 300px;
+  height: 180px;
+}
+
+.shiyu{
+  background-image: url(image/florist_shiyu.png);
+}
+.mao{
+  background-image: url(image/florist_mao.png);
+}
+.omichan{
+  background-image: url(image/florist_omichan.png);
+}
+
+
+/* shop_information部 */
