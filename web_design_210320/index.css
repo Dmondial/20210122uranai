@@ -94,6 +94,7 @@ body{
 .content{
   /* width: 960px;
   background-color: aquamarine; */
+  margin: 50px auto;
 }
 
 /* concept部 */
@@ -123,6 +124,7 @@ body{
   width: 576px;
   height: 70px;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .concept_image{
@@ -251,7 +253,7 @@ tr{
   background-image: url(image/contact_us.png);
   width: 1280px;
   height: 450px;
-  align-content: center;
+  
 }
 
 .contact_btn{
@@ -263,6 +265,7 @@ tr{
   align-items: center;
 }
 .contact_btn_text{
+  vertical-align: center;
 }
 
 .mail_icon_line{
@@ -272,6 +275,7 @@ tr{
   height: 20px;
   position: relative;
   margin-right: 16px;
+  vertical-align: middle;
 }
 
 .mail_icon_line::before{
@@ -291,4 +295,15 @@ tr{
   right: -3px;
   top: 6px; 
   transform: rotate(320deg);
+}
+
+.mail_icon_message{
+  display:inline-block;
+  vertical-align: middle;
+}
+
+/* footer部 */
+footer{
+  text-align: center;
+  padding-bottom: 16px;
 }
