@@ -104,7 +104,7 @@ body{
   align-items: center;
   
   width: 960px;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 }
 .title{
   font-size: 36px;
@@ -210,3 +210,85 @@ body{
 
 
 /* shop_information部 */
+
+.shop_information_content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.shop_information_image{
+  background-image: url(image/shop_information.png);
+  width: 480px;
+  height: 320px;
+  margin-right: 48px;
+}
+
+.shop_information_data{
+  width: calc(432px - 80px);
+  height: calc(320px - 64px);
+  border: 1px dashed #707070;
+  padding: 32px 40px;
+}
+
+.data_row{
+  padding: 100px;
+}
+tr{
+  vertical-align: top;
+}
+/* .datas_row{} */
+.data_left{
+  border-right: 2px solid #707070;
+  padding-right: 16px;
+}
+.data_right{
+  padding-left: 16px;
+  padding-bottom: 16px;
+}
+
+/* contact us 部 */
+.contact_bg_image{
+  background-image: url(image/contact_us.png);
+  width: 1280px;
+  height: 450px;
+  align-content: center;
+}
+
+.contact_btn{
+  background-color:  #f0f0f0;
+  width: 360px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact_btn_text{
+}
+
+.mail_icon_line{
+  display: inline-block;
+  border: 1px solid #707070;
+  width: 30px;
+  height: 20px;
+  position: relative;
+  margin-right: 16px;
+}
+
+.mail_icon_line::before{
+  content:"";
+  width: 19px;
+  border: 1px solid #707070;
+  position: absolute;
+  left: -3px;
+  top: 6px; 
+  transform: rotate(40deg);
+}
+.mail_icon_line::after{
+  content:"";
+  width: 19px;
+  border: 1px solid #707070;
+  position: absolute;
+  right: -3px;
+  top: 6px; 
+  transform: rotate(320deg);
+}
